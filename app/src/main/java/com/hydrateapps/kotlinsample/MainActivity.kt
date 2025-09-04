@@ -10,6 +10,7 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_main)
         // The following line does not crash when kotlin version is < 2.2.0
         // But does crash when the kotlin version is 2.2.*.
         // This crash is expected, seeing as the resource ID does not exist in
